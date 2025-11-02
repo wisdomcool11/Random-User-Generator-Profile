@@ -5,7 +5,7 @@ export default function BottomBody(props){
     const {handleClickGenerator, userData}= props;
 
     return (
-        <section className="w-full h-full border">
+        <section className="w-full h-full ">
             {userData && userData.map(item => {
                     return (
                         <div key={item.login.uuid} className="grid grid-cols-2 grid-rows-2 mb-2 p-2 gap-4 md:gap-2">
